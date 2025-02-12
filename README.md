@@ -32,7 +32,7 @@ Authentication: Firebase/Auth0
 
 Clone the repository:
 
-git clone https://github.com/your-username/jobconnect.git
+git clone https://github.com/priyanshkhas/jobconnect.git
 
 Navigate to the project directory:
 
