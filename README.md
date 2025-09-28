@@ -47,11 +47,6 @@ Set up environment variables in a .env file:
 MONGO_URI=your_mongodb_uri
 OPENAI_API_KEY=your_openai_api_key
 
-Run the application:
-
-npm start
-
-Open http://localhost:3000 in your browser.
 
 🤖 How the AI Chatbot Works
 
@@ -71,16 +66,4 @@ Mobile app version for Android and iOS.
 
 Employer AI assistant for automated candidate screening.
 
-🤝 Contributing
 
-We welcome contributions! Feel free to fork this repository, create a new branch, and submit a pull request.
-
-📄 License
-
-This project is licensed under the MIT License.
-
-🌟 Show Your Support
-
-Give a ⭐ if you like this project and want to see more features!
-
-Happy coding! 🚀
