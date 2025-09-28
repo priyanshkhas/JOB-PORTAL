@@ -1,69 +1,83 @@
-JobConnect - AI-Powered Job Portal
+# JobConnect – AI Powered Job Portal 🚀  
 
-Welcome to JobConnect, an advanced job portal that leverages AI technology to enhance the job search experience. This platform connects job seekers with employers through intelligent search and an AI-powered chatbot that assists users in finding the best job opportunities tailored to their skills and preferences.
+JobConnect is a **full-stack AI-powered job portal** designed to streamline the recruitment process by connecting job seekers with recruiters through intelligent job matching, resume parsing, chatbot assistance, and real-time notifications.  
 
-🚀 Features
+Built using the **MERN stack** with integration of **AI services (OpenAI API)**, JobConnect offers a modern, scalable, and secure solution for job search and recruitment.  
 
-AI Chatbot Assistance - Get instant job recommendations and career advice from our AI chatbot.
+---
 
-Advanced Search Filters - Find jobs based on location, experience level, industry, and more.
+## ✨ Features  
 
-User-Friendly Dashboard - Both job seekers and recruiters get personalized dashboards to manage applications and listings.
+- 🔍 **Smart Job Search** – Intelligent job recommendations based on skills, experience, and preferences.  
+- 🤖 **AI Chatbot Assistance** – Provides interview tips, resume feedback, and career guidance.  
+- 📄 **Resume Parsing** – Upload your resume and get skill-based job matches instantly.  
+- 🔔 **Real-Time Alerts** – Notifications for new job postings and recruiter responses.  
+- 🔑 **Secure Authentication** – JWT/Firebase/Auth0 based login for users & recruiters.  
+- 📊 **Dynamic Dashboards** – Separate dashboards for recruiters and job seekers.  
+- 📱 **Responsive UI** – Built with HTML, CSS, and JavaScript for a seamless user experience across devices.  
+- ⚡ **MERN Stack Integration** – MongoDB, ExpressJS, ReactJS, NodeJS for scalable backend and dynamic frontend.  
 
-Real-Time Notifications - Receive alerts for job applications, interview schedules, and new job postings.
+---
 
-Resume Parsing - Upload your resume and let our AI match you with relevant job opportunities.
+## 🛠️ Tech Stack  
 
-Secure Authentication - Sign up and log in securely using email authentication.
+**Frontend:**  
+- ReactJS  
+- HTML, CSS, JavaScript  
+- Bootstrap / Tailwind CSS  
 
-🛠️ Tech Stack
+**Backend:**  
+- NodeJS  
+- ExpressJS  
 
-Frontend: HTML, CSS, JavaScript
+**Database:**  
+- MongoDB (NoSQL)  
 
-Backend: Node.js, Express.js
+**Authentication & Security:**  
+- Firebase/Auth0 / JWT  
 
-Database: MongoDB
+**AI & Other Integrations:**  
+- OpenAI API for job recommendations, resume feedback, and chatbot  
+- Resume parsing logic (custom parser + AI-assisted analysis)  
 
-AI Integration: OpenAI API (for chatbot)
+**Developer Tools:**  
+- Git & GitHub  
+- VS Code  
+- Postman for API testing  
 
-Authentication: Firebase/Auth0
+---
 
-📦 Installation
+## 🏗️ System Architecture & Workflow  
 
-Clone the repository:
+The project follows a modular and scalable architecture:  
 
-git clone https://github.com/priyanshkhas/jobconnect.git
+1. **Frontend (ReactJS)**  
+   - Handles user interface for job seekers and recruiters.  
+   - Implements dashboards, search, job posting, and chatbot UI.  
 
-Navigate to the project directory:
+2. **Backend (NodeJS + ExpressJS)**  
+   - Exposes RESTful APIs for authentication, job management, resume parsing, and AI integration.  
+   - Handles business logic and connects to database.  
 
-cd jobconnect
+3. **Database (MongoDB)**  
+   - Stores user profiles, resumes, job postings, and application history.  
 
-Install dependencies:
+4. **Authentication**  
+   - Secure login/signup using JWT or Firebase/Auth0.  
+   - Role-based access control (Job Seeker vs Recruiter).  
 
-npm install
+5. **AI Layer**  
+   - Uses OpenAI API for:  
+     - Resume parsing and skill extraction  
+     - Personalized job recommendations  
+     - AI chatbot for interview guidance & career tips  
 
-Set up environment variables in a .env file:
+6. **Real-Time Notifications**  
+   - Alerts job seekers about recruiter responses and new postings.  
+   - Keeps recruiters updated with new applicants.  
 
-MONGO_URI=your_mongodb_uri
-OPENAI_API_KEY=your_openai_api_key
+---
 
 
-🤖 How the AI Chatbot Works
-
-The chatbot uses the OpenAI API to understand user queries.
-
-It provides job recommendations based on user input (skills, experience, job role, location).
-
-Users can interact with the chatbot for resume feedback, interview tips, and job search guidance.
-
-📌 Future Enhancements
-
-Integration of machine learning for better job recommendations.
-
-Multi-language support for a diverse user base.
-
-Mobile app version for Android and iOS.
-
-Employer AI assistant for automated candidate screening.
 
 
